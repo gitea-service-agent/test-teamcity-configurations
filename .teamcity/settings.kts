@@ -50,7 +50,7 @@ project {
 
 
 object TestTeamcity : Project({
-    name = "Test Teamcity"
+    name = "Test Teamcity2"
 
     vcsRoot(TestTeamcity_HttpsGithubComGiteaServiceAgentTestTeamcityGitRefsHeadsMain)
 
