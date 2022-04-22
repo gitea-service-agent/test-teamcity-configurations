@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="aae2691b-270f-471b-b755-8671e9e6470b" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>devops-infra</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:6ad4d40b-1f35-4157-bb91-2b3323edcc6c" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://git.ocap.cc/ordercapital/devops-infra.git" />
+  <param name="useAlternates" value="AUTO" />
+  <param name="username" value="alugovoi@ocap.cc" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
